@@ -5383,21 +5383,21 @@ module.exports = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var alpinejs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! alpinejs */ "./node_modules/alpinejs/dist/module.esm.js");
-/* harmony import */ var _components_card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/card */ "./resources/js/components/card.js");
-/* harmony import */ var flowbite__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! flowbite */ "./node_modules/flowbite/dist/flowbite.js");
-/* harmony import */ var flowbite__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(flowbite__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _pages_home__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/home */ "./resources/js/pages/home.js");
+/* harmony import */ var flowbite__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! flowbite */ "./node_modules/flowbite/dist/flowbite.js");
+/* harmony import */ var flowbite__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(flowbite__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var alpinejs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! alpinejs */ "./node_modules/alpinejs/dist/module.esm.js");
+/* harmony import */ var _components_card__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/card */ "./resources/js/components/card.js");
+/* harmony import */ var _pages_members__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/members */ "./resources/js/pages/members.js");
 
 
 
 
-window.Alpine = alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"]; // Components
+window.Alpine = alpinejs__WEBPACK_IMPORTED_MODULE_1__["default"]; // Components
 
-alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].data('card', _components_card__WEBPACK_IMPORTED_MODULE_1__["default"]); // Pages
+alpinejs__WEBPACK_IMPORTED_MODULE_1__["default"].data("card", _components_card__WEBPACK_IMPORTED_MODULE_2__["default"]); // Pages
 
-alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].data('home', _pages_home__WEBPACK_IMPORTED_MODULE_3__["default"]);
-alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].start();
+alpinejs__WEBPACK_IMPORTED_MODULE_1__["default"].data("members", _pages_members__WEBPACK_IMPORTED_MODULE_3__["default"]);
+alpinejs__WEBPACK_IMPORTED_MODULE_1__["default"].start();
 
 /***/ }),
 
@@ -5430,10 +5430,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/pages/home.js":
-/*!************************************!*\
-  !*** ./resources/js/pages/home.js ***!
-  \************************************/
+/***/ "./resources/js/pages/members.js":
+/*!***************************************!*\
+  !*** ./resources/js/pages/members.js ***!
+  \***************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";

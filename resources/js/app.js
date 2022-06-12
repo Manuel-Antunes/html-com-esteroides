@@ -1,15 +1,14 @@
-import Alpine from 'alpinejs'
-import card from './components/card';
-import 'flowbite';
-import home from './pages/home';
+import "flowbite";
+import Alpine from "alpinejs";
+import card from "./components/card";
+import members from "./pages/members";
 
 window.Alpine = Alpine;
 
 // Components
-Alpine.data('card', card);
-
+Alpine.data("card", card);
 
 // Pages
-Alpine.data('home', home);
+Alpine.data("members", members);
 
-Alpine.start()
+Alpine.start();

@@ -5,21 +5,35 @@
   "license": "MIT",
   "scripts": {
     "mix:watch": "webpack --watch --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "dev": "npx tailwindcss -i ./resources/scss/app.scss -o ./public/css/app.css --watch"
+    "dev": "nodemon server.js"
   },
   "dependencies": {
     "alpinejs": "^3.10.2",
     "axios": "^0.27.2",
+    "connect-livereload": "^0.6.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
     "flowbite": "^1.4.7",
     "laravel-mix": "^6.0.49",
+    "livereload": "^0.9.3",
+    "mix-html-builder": "^0.8.0",
+    "morgan": "^1.10.0",
     "polished": "^4.2.2",
-    "sweetalert2": "^11.4.17"
+    "socket.io": "^4.5.1",
+    "socket.io-client": "^4.5.1",
+    "sweetalert2": "^11.4.17",
+    "youch": "^3.2.0"
   },
   "devDependencies": {
+    "filename-regex": "^2.0.1",
     "laravel-mix-tailwind": "^0.1.2",
+    "nodemon": "^2.0.16",
     "resolve-url-loader": "^5.0.0",
     "sass": "^1.52.3",
     "sass-loader": "^12.1.0",
+    "sucrase": "^3.21.0",
     "tailwindcss": "^3.1.2"
   }
 }

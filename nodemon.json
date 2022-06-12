@@ -1,0 +1,6 @@
+{
+  "ext": "js,hbs",
+  "execMap": {
+    "js": "sucrase-node"
+  }
+}

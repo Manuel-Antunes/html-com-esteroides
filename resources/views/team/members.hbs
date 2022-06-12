@@ -1,0 +1,23 @@
+<div x-data="members" class="p-5 w-100 flex justify-center">
+  <div>
+    <h1 class="text-4xl text-red-500 text-center font-bold">CuC Members</h1>
+    <ul class="grid grid-cols-2 md:grid-cols-3">
+      <template x-for="user in users">
+        <li class="p-5">
+          <a class="flex flex-col items-center w-fit" :href="user.html_url">
+            <img
+              class="rounded-full w-36 h-36"
+              :src="user.avatar_url"
+              alt="Extra large avatar"
+            />
+            <span
+              :style="{'color': darkPourple}"
+              class="text-xl font-bold"
+              x-text="user.login"
+            ></span>
+          </a>
+        </li>
+      </template>
+    </ul>
+  </div>
+</div>
