@@ -1125,8 +1125,7 @@ input:checked + .toggle-bg{
 }
 .ease-out{
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
-}
-/*
+} /*
 ! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com
 */ /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
