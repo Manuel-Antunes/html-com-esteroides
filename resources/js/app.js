@@ -1,4 +1,5 @@
 import "flowbite";
+import "alpine-magic-helpers";
 import Alpine from "alpinejs";
 import card from "./components/card";
 import members from "./pages/members";
